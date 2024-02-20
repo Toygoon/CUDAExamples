@@ -1,0 +1,7 @@
+*
+!/**/
+!*.*
+*.o
+*.out
+.vscode-ctags
+tempCodeRunnerFile.c
