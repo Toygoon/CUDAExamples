@@ -19,7 +19,7 @@ int main(void) {
     checkDeviceMemory();
 
     errCode = cudaMemset(dDataPtr, 0, sizeof(int) * 1024 * 1024);
-    printf("cudaMemset - %s\n", cudaGetErrorName(errCode);
+    printf("cudaMemset - %s\n", cudaGetErrorName(errCode));
 
     errCode = cudaFree(dDataPtr);
     printf("cudaFree - %s\n", cudaGetErrorName(errCode));
